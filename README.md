@@ -104,4 +104,4 @@ O código do jogo "Snake Spring" fornece uma implementação básica e funcional
 
 ## **Autor**
 
-Vinicius Ghizani da Silva, projeto realizado acompanhando vídeo do canal Manual do Dev no Youtube.
+Vinicius Ghizani da Silva, projeto realizado acompanhando vídeo do canal Manual do Dev no Youtube, porém com alterações pessoais e sincronização com Spring Boot para cumprir a proposta do trabalho.
