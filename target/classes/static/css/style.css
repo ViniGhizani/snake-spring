@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Pixelify+Sans:wght@400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Pixelify Sans", sans-serif;
+}
+
+body {
+  background-color: #2e3031;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #d8d8ce;
+}
+
+canvas {
+  background-color: #7ca500;
+  border-bottom: 30px solid #181818;
+  border-right: 30px solid #181818;
+  border-left: 30px solid #181818;
+}
+
+.score {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.8rem;
+}
+
+.title-game {
+  font-size: 5rem;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.score-design {
+  color: #181818;
+  background-color: #7ca500;
+  border: 30px solid #181818;
+  width: 660px;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+.score--value {
+  font-weight: 700;
+  font-size: 4.5rem;
+  display: block;
+  margin-top: -10px;
+}
+
+.menu-screen {
+  position: absolute;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+  background-color: #7ca500;
+  border: 10px solid #181818;
+  padding: 30px;
+}
+
+.game-over {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 3rem;
+  color: #181818;
+}
+
+.final-score {
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: #181818;
+}
+
+.btn-play {
+  border: 5px solid #181818;
+  background-color: #7ca500;
+  padding: 10px 15px 10px 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #181818;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  cursor: pointer;
+}
