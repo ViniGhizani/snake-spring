@@ -38,7 +38,7 @@ const randomColor = () => {
 const food = {
   x: randomPosition(),
   y: randomPosition(),
-  color: "#191919",
+  color: randomColor(),
 };
 
 let direction, loopId;
